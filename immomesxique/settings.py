@@ -13,7 +13,7 @@ BOT_NAME = 'immomesxique'
 
 SPIDER_MODULES = ['immomesxique.spiders']
 NEWSPIDER_MODULE = 'immomesxique.spiders'
-
+#test
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'immomesxique (+http://www.yourdomain.com)'
