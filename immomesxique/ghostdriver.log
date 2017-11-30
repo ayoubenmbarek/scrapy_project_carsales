@@ -1,0 +1,15 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2017-09-12T11:00:52.299Z] GhostDriver - Main - running on port 49043
+[INFO  - 2017-09-12T11:00:53.226Z] Session [a509a770-97a9-11e7-9088-336b22e6992b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2017-09-12T11:00:53.226Z] Session [a509a770-97a9-11e7-9088-336b22e6992b] - page.customHeaders:  - {}
+[INFO  - 2017-09-12T11:00:53.226Z] Session [a509a770-97a9-11e7-9088-336b22e6992b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-09-12T11:00:53.226Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a509a770-97a9-11e7-9088-336b22e6992b
+[ERROR - 2017-09-12T11:00:55.293Z] Session [a509a770-97a9-11e7-9088-336b22e6992b] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.update.bind(this)')
+[ERROR - 2017-09-12T11:00:55.293Z] Session [a509a770-97a9-11e7-9088-336b22e6992b] - page.onError - stack:
+  (anonymous function) (http://img10.naventcdn.com/js/05e3b70ad0a5bedac3f161a918eb078e71753eb987b93c82c21dc62578f5e1c1_73768947ac4506ea116d6685b9505d98.js:35)
+  b (http://img10.naventcdn.com/js/05e3b70ad0a5bedac3f161a918eb078e71753eb987b93c82c21dc62578f5e1c1_73768947ac4506ea116d6685b9505d98.js:35)
+  (anonymous function) (http://img10.naventcdn.com/js/05e3b70ad0a5bedac3f161a918eb078e71753eb987b93c82c21dc62578f5e1c1_73768947ac4506ea116d6685b9505d98.js:35)
+  (anonymous function) (http://img10.naventcdn.com/js/05e3b70ad0a5bedac3f161a918eb078e71753eb987b93c82c21dc62578f5e1c1_73768947ac4506ea116d6685b9505d98.js:17)
+[ERROR - 2017-09-12T11:00:55.300Z] Session [a509a770-97a9-11e7-9088-336b22e6992b] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'r.getAttribute(k)')
+[ERROR - 2017-09-12T11:00:55.300Z] Session [a509a770-97a9-11e7-9088-336b22e6992b] - page.onError - stack:
+  (anonymous function) (http://img10.naventcdn.com/js/05e3b70ad0a5bedac3f161a918eb078e71753eb987b93c82c21dc62578f5e1c1_73768947ac4506ea116d6685b9505d98.js:17)
